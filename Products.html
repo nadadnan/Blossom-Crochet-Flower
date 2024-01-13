@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Products</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="CodeHim">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-dp0f5ihNc9zrD6Do3L1p5x5eGfTjKBE6tbs2OTJ9Pm49aIVUpC3NlUJ+66U2LXYi" crossorigin="anonymous">
+    </head>
+
+    <body>
+
+    <!--Header section starts-->
+    <header>
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+    <a href="HomePage.html" class="logo">
+    <span>Bloomify.</span><span class="slogan">Blossom with beauty</span></a>
+    <nav class="navbar">
+      <a href="HomePage.html">Home</a>
+      <a href="Products.html">Products</a>
+      <a href="Aboutus.html">About Us</a>
+      <a href="Gallery.html">Gallery</a>        
+      <a href="ContactUs.html">Contact Us</a>
+    </nav>
+    <navi class="cart-btn">
+      <i id="cart" class="fas fa-shopping-cart"></i>
+      <span class ="cart-quantity">0</span>   
+      <div class="icons">
+        <a href="Account.html" class="fas fa-user"></a>
+      </div>    
+    </navi> 
+    </header>
+    <!--Header section ends-->
+    
+    <div class="action">
+    <a href="https://www.codehim.com/collections/javascript-shopping-cart-examples-with-demo/" title="Back to download and tutorial page" class="btn back">Back to Tutorial</a>
+    </div>
+
+<main>
+<div class="cart-modal-overlay">
+    <div class="cart-modal" style="padding-top: 30px;">
+      <i id="close-btn" class="fas fa-times"></i>
+        <h1 class="cart-is-empty">Cart is empty</h1>
+      
+        <div class="product-rows">
+
+        </div>
+        
+        <div class="total">
+          <h1 class="cart-total">TOTAL</h1>
+            <span class="total-price">RM0</span>
+              <button class="purchase-btn">CHECKOUT</button>
+        </div>
+      </div>
+</div>
+      
+<!--  products  -->
+<h1 class="heading" style="padding-top: 30px;"><span></span> Products</h1>
+  <div class="items-container">
+    <div class="card-1 card">
+      <img class="product-image" src="1.jpeg" alt="">
+        <button class="add-to-cart">Add to cart</button>
+        <span class="product-id"><h1>CF001</h1></span>
+          <span class="product-price">RM110</span>
+    </div>
+    <div class="card-2 card">
+      <img class="product-image" src="2.jpeg" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-id"><h1>CF002</h1></span>
+        <span class="product-price">RM160</span>
+    </div>
+    <div class="card-3 card">
+      <img class="product-image" src="3.jpeg" alt="">
+        <button class="add-to-cart">Add to cart</button>
+        <span class="product-id"><h1>CF003</h1></span>
+          <span class="product-price">RM180</span>
+    </div>
+    <div class="card-4 card">
+      <img class="product-image" src="4.jpeg" alt="">
+         <button class="add-to-cart">Add to cart</button>
+         <span class="product-id"><h1>CF004</h1></span>
+        <span class="product-price">RM62</span>
+    </div>
+    <div class="card-5 card">
+      <img class="product-image" src="5.jpeg" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-id"><h1>CF005</h1></span>
+      <span class="product-price">RM150<br><br></span>
+    </div>
+  </div>
+  <div class="items-container">
+    <div class="card-1 card">
+      <img class="product-image" src="6.jpeg" alt="">
+        <button class="add-to-cart">Add to cart</button>
+        <span class="product-id"><h1>CF006</h1></span>
+          <span class="product-price">RM110</span>
+    </div>
+    <div class="card-2 card">
+      <img class="product-image" src="7.jpeg" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-id"><h1>CF0027</h1></span>
+        <span class="product-price">RM188</span>
+    </div>
+    <div class="card-3 card">
+      <img class="product-image" src="8.jpeg" alt="">
+        <button class="add-to-cart">Add to cart</button>
+        <span class="product-id"><h1>CF008</h1></span>
+          <span class="product-price">RM36</span>
+    </div>
+    <div class="card-4 card">
+      <img class="product-image" src="9.jpeg" alt="">
+         <button class="add-to-cart">Add to cart</button>
+         <span class="product-id"><h1>CF009</h1></span>
+        <span class="product-price">RM55</span>
+    </div>
+    <div class="card-5 card">
+      <img class="product-image" src="10.jpeg" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-id"><h1>CF010</h1></span>
+      <span class="product-price">RM200</span>
+    </div>
+  </div>
+  <div class="items-container">
+    <div class="card-1 card">
+      <img class="product-image" src="11.jpeg" alt="">
+        <button class="add-to-cart">Add to cart</button>
+        <span class="product-id"><h1>CF011</h1></span>
+          <span class="product-price">RM110</span>
+    </div>
+    <div class="card-2 card">
+      <img class="product-image" src="12.jpeg" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-id"><h1>CF012</h1></span>
+        <span class="product-price">RM188</span>
+    </div>
+    <div class="card-1 card">
+      <img class="product-image" src="13.jpeg" alt="">
+        <button class="add-to-cart">Add to cart</button>
+        <span class="product-id"><h1>CF013</h1></span>
+          <span class="product-price">RM110</span>
+    </div>
+    <div class="card-2 card">
+      <img class="product-image" src="14.jpg" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-id"><h1>CF014</h1></span>
+        <span class="product-price">RM188</span>
+    </div>
+    <div class="card-2 card">
+      <img class="product-image" src="15.jpg" alt="">
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-id"><h1>CF015</h1></span>
+        <span class="product-price">RM188</span>
+    </div>
+  </div>
+</main>
+ 
+<!-- Horizontal Line -->
+<div class="hr-line"></div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="row">
+        <div class="column">
+          <div class="find-us">
+            <h3>Find Us Here</h3>
+            <p>72-3-21 Arena Curve, Jalan Mahsuri,<br>11950 Bayan Lepas, Penang</p>
+          </div>
+        </div>
+        <div class="column" >
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>Phone: +60179460169</p>
+            <p>Email: sales@bloomify.com<br></p>
+            <p class="copyright"><span>&copy;</span>2024 By Bloomify Crochet Flower Shop</p>
+          </div>
+        </div>
+        <div class="column" >
+          <div class="social-media">
+            <h3>Follow Us</h3>
+            <div class="social-link">
+              <a href="#"><i class="fab fa-facebook"></i>_Bloomify</a>
+            </div>
+            <div class="social-link">
+              <a href="#"><i class="fab fa-instagram"></i>Official_Bloomify</a>
+            </div>
+          </div>
+        </div>
+      </div>    
+    </div>
+    <!--End of Footer -->
+  
+      <script  src="script.js"></script>
+
+    </body>
+</html>
